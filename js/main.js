@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let resetTimeout;
     const changeImageSrc = () => {
         clearTimeout(resetTimeout);
-        plockingImage.src = './assets/img/Looking.gif';
+        plockingImage.src = './images/Looking.gif';
     };
     const resetImageSrc = () => {
         resetTimeout = setTimeout(() => {
-            plockingImage.src = './assets/img/Peckering.gif';
+            plockingImage.src = './images/Peckering.gif';
         }, 500);
     };
     buttons.forEach(button => {
